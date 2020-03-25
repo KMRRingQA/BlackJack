@@ -9,9 +9,6 @@ public class BlackJack {
 		else if (Number2 > 21) {
 			return Number1;
 		}
-		else if (Number1 > 21) {
-			return Number2;
-		}
 		else if (Number1 > Number2) {
 			return Number1;
 		}
